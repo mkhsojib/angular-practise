@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script> -->
+
+
+<script src="angular.min.js"></script>
+
+<script src="app.js"></script>
+
+</head>
+<body >
+
+  <div ng-controller="myCtrl">
+
+      <h1> 12+45 = {{ 12+45}}</h1>
+      <h1>{{ 'hello' }}</h1>
+      
+      <h1>{{ {name:"kamal"}.name }}</h1>
+      <h1>{{ ['math', 'en'][1]}}</h1>
+      
+      <hr>
+
+      <h1>{{msg}}</h1>
+
+      <h1>Name: {{student.name}}</h1>
+      <h1>Score: {{student.score}}</h1>
+
+  </div>
+
+
+
+
+  
+</body>
+</html>
